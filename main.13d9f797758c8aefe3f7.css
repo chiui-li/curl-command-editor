@@ -1,0 +1,93 @@
+.index-module__layout__J4Rmf {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.index-module__card_container__y05dv {
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 95px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  gap: 6px 0;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  place-items: flex-start;
+}
+div.index-module__option_list__pS317 {
+  width: 450px;
+  flex-shrink: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  margin-left: 10px;
+}
+#root .cm-focused {
+  outline: none;
+}
+#root .ant-form-item {
+  margin-bottom: 0;
+}
+#root .ant-form-item-label {
+  padding-bottom: 0;
+}
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 2px;
+  background-color: #fff;
+}
+body::-webkit-scrollbar {
+  width: 4px;
+  /* 滚动条宽度， width：对应竖滚动条的宽度 height：对应横滚动条的高度*/
+  height: 4px;
+  background: #fff;
+}
+body::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background: #fff;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  height: 20px;
+  background: gray;
+}
+.app {
+  padding: 8px;
+  font-size: larger;
+  text-align: center;
+}
+.option-container {
+  padding: 6px;
+  border-radius: 6px;
+  position: relative;
+  background-color: #efefefef;
+}
+.option-card {
+  padding: 6px;
+  border-radius: 6px;
+  position: relative;
+  /* background-color: #ffffff; */
+}
+.w_50 {
+  width: 50%;
+}
+.w_25 {
+  width: 25%;
+}
+.w_100 {
+  width: 100%;
+}
+.ant-tabs-nav {
+  margin-bottom: 0 !important;
+}
+
