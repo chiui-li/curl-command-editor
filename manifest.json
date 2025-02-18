@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "curl-editor-plugin",
+  "version": "1.0",
+  "description": "curl-editor-plugin",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequest"
+  ],
+  "background": {
+    "service_worker": "./background.bundle.js"
+  },
+  "action": {},
+  "host_permissions": ["*://*/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "./rulers.json"
+      }
+    ]
+  }
+}
